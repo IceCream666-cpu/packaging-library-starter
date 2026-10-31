@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "status": "prepared-locally-awaiting-repository-destination-and-visibility",
+  "status": "local-validation-passed-public-upload-in-progress",
   "dependencyInstall": "Fresh download from npm registry followed by npm ci; no symlink to previous project dependencies.",
   "node": "24.22.1",
   "npm": "11.6.2",
@@ -26,8 +26,8 @@
   ],
   "notDone": [
     "No GitHub repository created or uploaded yet.",
-    "No open-source license chosen on the owner behalf.",
     "No GitHub Pages deployment.",
     "No novice 70% time-saving benchmark."
-  ]
+  ],
+  "license": "MIT for original framework, docs and neutral recipes; third-party and branded assets separately noted in ASSETS.md."
 }
