@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "demo": true,
+    "notice": "All records, prices and suppliers are fictional."
+  },
+  "records": [
+    {
+      "id": "DEMO-001",
+      "name": "乳液泵瓶 · 演示",
+      "kind": "package",
+      "category": "瓶",
+      "materials": [
+        "PET"
+      ],
+      "materialRaw": "PET",
+      "capacityMl": 100,
+      "specificationRaw": "100 mL（虚构规格）",
+      "uses": [
+        "乳液"
+      ],
+      "supplierRaw": "演示供应商1（虚构）",
+      "quoteRaw": "1.25 元/件（演示价格）",
+      "unitPrice": 1.25,
+      "currency": "CNY",
+      "moqRaw": "1000 件（演示）",
+      "leadTimeRaw": "20 天（演示）",
+      "source": {
+        "workbook": "fictional-demo",
+        "sheet": "demo",
+        "row": 1
+      },
+      "sourceNote": "完全虚构；图片为几何示意，不是供应商资料。",
+      "images": [
+        {
+          "path": "media/demo-01.png",
+          "role": "product",
+          "missing": false,
+          "imageScope": "single_product",
+          "clientVisible": true
+        }
+      ]
+    },
+    {
+      "id": "DEMO-002",
+      "name": "乳液泵瓶 · 演示",
+      "kind": "package",
+      "category": "瓶",
+      "materials": [
+        "PET"
+      ],
+      "materialRaw": "PET",
+      "capacityMl": 200,
+      "specificationRaw": "200 mL（虚构规格）",
+      "uses": [
+        "乳液"
+      ],
+      "supplierRaw": "演示供应商2（虚构）",
+      "quoteRaw": "1.50 元/件（演示价格）",
+      "unitPrice": 1.5,
+      "currency": "CNY",
+      "moqRaw": "1000 件（演示）",
+      "leadTimeRaw": "20 天（演示）",
+      "source": {
+        "workbook": "fictional-demo",
+        "sheet": "demo",
+        "row": 2
+      },
+      "sourceNote": "完全虚构；图片为几何示意，不是供应商资料。",
+      "images": [
+        {
+          "path": "media/demo-02.png",
+          "role": "product",
+          "missing": false,
+          "imageScope": "single_product",
+          "clientVisible": true
+        }
+      ]
+    },
+    {
+      "id": "DEMO-003",
+      "name": "膏霜罐 · 演示",
+      "kind": "package",
+      "category": "罐",
+      "materials": [
+        "PP"
+      ],
+      "materialRaw": "PP",
+      "capacityMl": 50,
+      "specificationRaw": "50 mL（虚构规格）",
+      "uses": [
+        "膏霜"
+      ],
+      "supplierRaw": "演示供应商3（虚构）",
+      "quoteRaw": "1.75 元/件（演示价格）",
+      "unitPrice": 1.75,
+      "currency": "CNY",
+      "moqRaw": "1000 件（演示）",
+      "leadTimeRaw": "20 天（演示）",
+      "source": {
+        "workbook": "fictional-demo",
+        "sheet": "demo",
+        "row": 3
+      },
+      "sourceNote": "完全虚构；图片为几何示意，不是供应商资料。",
+      "images": [
+        {
+          "path": "media/demo-03.png",
+          "role": "product",
+          "missing": false,
+          "imageScope": "single_product",
+          "clientVisible": true
+        }
+      ]
+    },
+    {
+      "id": "DEMO-004",
+      "name": "玻璃滴管瓶 · 演示",
+      "kind": "package",
+      "category": "瓶",
+      "materials": [
+        "玻璃"
+      ],
+      "materialRaw": "玻璃",
+      "capacityMl": 30,
+      "specificationRaw": "30 mL（虚构规格）",
+      "uses": [
+        "油剂"
+      ],
+      "supplierRaw": "演示供应商1（虚构）",
+      "quoteRaw": "2.00 元/件（演示价格）",
+      "unitPrice": 2.0,
+      "currency": "CNY",
+      "moqRaw": "1000 件（演示）",
+      "leadTimeRaw": "20 天（演示）",
+      "source": {
+        "workbook": "fictional-demo",
+        "sheet": "demo",
+        "row": 4
+      },
+      "sourceNote": "完全虚构；图片为几何示意，不是供应商资料。",
+      "images": [
+        {
+          "path": "media/demo-04.png",
+          "role": "product",
+          "missing": false,
+          "imageScope": "single_product",
+          "clientVisible": true
+        }
+      ]
+    },
+    {
+      "id": "DEMO-005",
+      "name": "洁面软管 · 演示",
+      "kind": "package",
+      "category": "软管",
+      "materials": [
+        "PE"
+      ],
+      "materialRaw": "PE",
+      "capacityMl": 100,
+      "specificationRaw": "100 mL（虚构规格）",
+      "uses": [
+        "洁面"
+      ],
+      "supplierRaw": "演示供应商2（虚构）",
+      "quoteRaw": "2.25 元/件（演示价格）",
+      "unitPrice": 2.25,
+      "currency": "CNY",
+      "moqRaw": "1000 件（演示）",
+      "leadTimeRaw": "20 天（演示）",
+      "source": {
+        "workbook": "fictional-demo",
+        "sheet": "demo",
+        "row": 5
+      },
+      "sourceNote": "完全虚构；图片为几何示意，不是供应商资料。",
+      "images": [
+        {
+          "path": "media/demo-05.png",
+          "role": "product",
+          "missing": false,
+          "imageScope": "single_product",
+          "clientVisible": true
+        }
+      ]
+    },
+    {
+      "id": "DEMO-006",
+      "name": "喷雾瓶 · 演示",
+      "kind": "package",
+      "category": "瓶",
+      "materials": [
+        "PETG"
+      ],
+      "materialRaw": "PETG",
+      "capacityMl": 120,
+      "specificationRaw": "120 mL（虚构规格）",
+      "uses": [
+        "水剂"
+      ],
+      "supplierRaw": "演示供应商3（虚构）",
+      "quoteRaw": "2.50 元/件（演示价格）",
+      "unitPrice": 2.5,
+      "currency": "CNY",
+      "moqRaw": "1000 件（演示）",
+      "leadTimeRaw": "20 天（演示）",
+      "source": {
+        "workbook": "fictional-demo",
+        "sheet": "demo",
+        "row": 6
+      },
+      "sourceNote": "完全虚构；图片为几何示意，不是供应商资料。",
+      "images": [
+        {
+          "path": "media/demo-06.png",
+          "role": "product",
+          "missing": false,
+          "imageScope": "single_product",
+          "clientVisible": true
+        }
+      ]
+    },
+    {
+      "id": "DEMO-007",
+      "name": "泡沫泵瓶 · 演示",
+      "kind": "package",
+      "category": "瓶",
+      "materials": [
+        "PET"
+      ],
+      "materialRaw": "PET",
+      "capacityMl": 150,
+      "specificationRaw": "150 mL（虚构规格）",
+      "uses": [
+        "洗护"
+      ],
+      "supplierRaw": "演示供应商1（虚构）",
+      "quoteRaw": "2.75 元/件（演示价格）",
+      "unitPrice": 2.75,
+      "currency": "CNY",
+      "moqRaw": "1000 件（演示）",
+      "leadTimeRaw": "20 天（演示）",
+      "source": {
+        "workbook": "fictional-demo",
+        "sheet": "demo",
+        "row": 7
+      },
+      "sourceNote": "完全虚构；图片为几何示意，不是供应商资料。",
+      "images": [
+        {
+          "path": "media/demo-07.png",
+          "role": "product",
+          "missing": false,
+          "imageScope": "single_product",
+          "clientVisible": true
+        }
+      ]
+    },
+    {
+      "id": "DEMO-008",
+      "name": "纸质彩盒 · 演示",
+      "kind": "package",
+      "category": "彩盒",
+      "materials": [
+        "纸"
+      ],
+      "materialRaw": "纸",
+      "capacityMl": null,
+      "specificationRaw": "80 × 80 × 140 mm（虚构规格）",
+      "uses": [
+        "其他"
+      ],
+      "supplierRaw": "演示供应商2（虚构）",
+      "quoteRaw": "3.00 元/件（演示价格）",
+      "unitPrice": 3.0,
+      "currency": "CNY",
+      "moqRaw": "1000 件（演示）",
+      "leadTimeRaw": "20 天（演示）",
+      "source": {
+        "workbook": "fictional-demo",
+        "sheet": "demo",
+        "row": 8
+      },
+      "sourceNote": "完全虚构；图片为几何示意，不是供应商资料。",
+      "images": [
+        {
+          "path": "media/demo-08.png",
+          "role": "product",
+          "missing": false,
+          "imageScope": "single_product",
+          "clientVisible": true
+        }
+      ]
+    }
+  ]
+}

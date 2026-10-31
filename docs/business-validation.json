@@ -1,0 +1,58 @@
+{
+  "validatedAt": "2026-10-31",
+  "scope": "Standalone public business starter; not a production release",
+  "sourceCommit": "d3730e701177e28a39df465746c10a335f7158ba",
+  "extraction": {
+    "code": "selected runtime modules and synthetic-fixture tests",
+    "originalDatabaseCopied": false,
+    "originalAccountsCopied": false,
+    "originalMediaCopied": false,
+    "privateProductMappingsCopied": false,
+    "demoRecords": 8,
+    "demoMedia": "generated geometric schematic fixtures"
+  },
+  "validation": {
+    "cleanCheckout": true,
+    "freshPythonVirtualEnvironment": true,
+    "python": "3.12",
+    "node": "24.22.1",
+    "platform": "macOS",
+    "unittest": {
+      "tests": 112,
+      "passed": 112,
+      "seconds": 26.004
+    },
+    "skillValidation": "passed",
+    "browser": [
+      "employee login",
+      "text search and product detail",
+      "favorite persists after reload",
+      "two-product comparison",
+      "CSV download with 8 records",
+      "employee admin API returns 403",
+      "administrator edit saved and reread",
+      "website settings saved",
+      "management tools navigation",
+      "business workflow sample and order views",
+      "fresh-checkout employee login",
+      "all 8 demo product images loaded",
+      "390px narrow layout without horizontal overflow after sidebar transition",
+      "narrow sidebar opens and closes with Escape"
+    ],
+    "screenshots": [
+      "docs/images/business-admin.png",
+      "docs/images/business-mobile.png",
+      "docs/images/business-workflow-demo.png"
+    ],
+    "publicFileReview": "whitelisted code; ignored runtime; no original catalog mappings, private paths, production contacts or credential patterns; test fixture contains an intentionally rejected phone-shaped string"
+  },
+  "limits": [
+    "No live production deployment",
+    "Frontend 3D and business catalogue run independently; no automatic SKU sync",
+    "Image search weights and index not distributed or exercised",
+    "ERP-style workflow uses in-memory fictional data and resets on refresh",
+    "No Windows, real-device or production-load certification",
+    "GitHub Actions workflow provided as opt-in docs template; not enabled",
+    "70 percent manual-effort saving is a goal, not measured evidence"
+  ]
+}

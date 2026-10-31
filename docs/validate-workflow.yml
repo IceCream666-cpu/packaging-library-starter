@@ -34,3 +34,8 @@ jobs:
         run: |
           npm test
           npm run build
+      - name: Install business dependencies
+        run: python3 -m pip install -r business/requirements.txt
+      - name: Test isolated business backend
+        working-directory: business
+        run: python3 -m unittest discover -v

@@ -24,3 +24,8 @@ work/
 *.sqlite
 *.sqlite3
 *.db
+
+# Business runtime contains accounts, sessions, uploads and private catalogues.
+business/.runtime/
+business/state/
+business/private/

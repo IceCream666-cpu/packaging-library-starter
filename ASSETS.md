@@ -11,3 +11,5 @@
 第三方完整说明见 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)。
 
 自己的新项目由 `new_project.py` 导入自己的海报；脚本会移除原示例产品及其模型。
+
+`business/` 中自有业务代码、虚构记录与 DEMO 几何示意图采用 MIT 许可。原业务数据库、账号、供应商图片和分组映射不在发布内容中。

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#164B47">
+  <title>包材选型库 · PACKAGING</title>
+  <link rel="icon" type="image/svg+xml" href="/brand/packaging-mark.svg">
+  <link rel="stylesheet" href="/client.css">
+  <link rel="stylesheet" href="/i18n.css">
+  <link rel="stylesheet" href="/product-detail.css">
+</head>
+<body>
+  <a class="skip-link" href="#galleryMain" data-client-text="跳至包材内容">跳至包材内容</a>
+  <button id="sidebarBackdrop" class="sidebar-backdrop" type="button" data-client-label="关闭侧栏" aria-label="关闭侧栏" hidden></button>
+  <aside id="sidebar" aria-label="包材导航" data-client-label="包材导航">
+    <div class="sidebar-top">
+      <a href="/client" target="_top" class="brand" aria-label="示例包材库" data-client-label="示例包材库"><img src="/brand/packaging-mark.svg" width="45" height="52" alt=""><span><strong data-client-text="包材示例">包材示例</strong><small>PACKAGING LIBRARY</small></span></a>
+      <button id="sidebarClose" type="button" class="sidebar-close" data-client-label="关闭侧栏" aria-label="关闭侧栏">×</button>
+    </div>
+    <p class="workspace" data-client-text="包材演示工作室（虚构）">包材演示工作室（虚构）</p>
+    <nav class="primary-nav" aria-label="包材分区" data-client-label="包材分区">
+      <button id="allCatalog" type="button" class="active"><span data-client-text="包材选型库">包材选型库</span><span aria-hidden="true">01</span></button>
+      <button id="favoritesView" type="button"><span data-client-text="我的收藏">我的收藏</span><span id="favoriteCount">0</span></button>
+      <button id="shortlistView" type="button"><span data-client-text="意向清单">意向清单</span><span id="shortlistCount">0</span></button>
+      <p class="side-heading" data-client-text="包材分区">包材分区</p>
+      <button type="button" data-section="face" aria-pressed="false"><span data-client-text="面部">面部</span><span aria-hidden="true">›</span></button>
+      <button type="button" data-section="body-head" aria-pressed="false"><span data-client-text="身体／头部">身体／头部</span><span aria-hidden="true">›</span></button>
+      <p class="section-nav-help" data-client-text="可与材质、容量等条件联合检索">可与材质、容量等条件联合检索</p>
+    </nav>
+    <div class="category-sidebar"><p class="side-heading" data-client-text="分类浏览">分类浏览</p><div id="categorySidebar"></div></div>
+    <p class="sidebar-note"><span data-client-text="包材示例 · 包材展厅">包材示例 · 包材展厅</span><small data-client-text="让每一个想法，找到合适的形态。">让每一个想法，找到合适的形态。</small></p>
+  </aside>
+  <div class="shell">
+    <header class="gallery-header">
+      <button id="menuButton" type="button" class="menu-button" aria-controls="sidebar" aria-expanded="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16m7-11-3 3 3 3"/></svg><span id="menuLabel">收起侧栏</span></button>
+      <span class="breadcrumb" data-client-text="包材展厅 / 包材选型库">包材展厅 / 包材选型库</span>
+      <div class="header-actions"><div id="languageSwitch"></div><button id="logout" class="quiet" type="button" data-client-text="退出登录">退出登录</button></div>
+    </header>
+    <main id="galleryMain">
+      <section id="showroomHero" class="showroom-hero" aria-labelledby="heroTitle">
+        <div class="showroom-copy"><p class="eyebrow">PACKAGING · PACKAGING COLLECTION</p><h1 id="heroTitle" data-client-text="为每一种配方，找到合适的包装。">为每一种配方，找到合适的包装。</h1><p class="sub" data-client-text="按材质、容量与瓶型，探索包材灵感。">按材质、容量与瓶型，探索包材灵感。</p><button id="browse" class="button primary" type="button"><span data-client-text="开始选型">开始选型</span><span aria-hidden="true">↓</span></button></div>
+        <div id="heroImages" class="showroom-visual" aria-label="精选包材" data-client-label="精选包材"></div>
+      </section>
+      <div class="catalog-heading"><div><p class="eyebrow">PACKAGING MATERIAL LIBRARY</p><h2 id="galleryTitle" data-client-text="包材选型库">包材选型库</h2><p class="sub" data-client-text="从产品编号到理想瓶型，轻松查找合适的包材。">从产品编号到理想瓶型，轻松查找合适的包材。</p></div><span class="collection-mark" aria-hidden="true">COLLECTION / 01</span></div>
+      <section id="filters" class="filters" aria-label="检索条件" data-client-label="检索条件">
+        <form id="searchForm" class="search-row"><label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="query" name="query" type="search" maxlength="200" autocomplete="off" data-client-label="检索包材" aria-label="检索包材" data-client-placeholder="搜索产品编号、材质、规格或用途" placeholder="搜索产品编号、材质、规格或用途"></label><button class="button primary" type="submit" data-client-text="搜索">搜索</button><button id="imageSearchOpen" class="button" type="button" data-client-text="上传图片找相似">上传图片找相似</button><button id="reset" class="button" type="button" data-client-text="重置">重置</button></form>
+        <button id="filterToggle" class="button filter-toggle" type="button" aria-controls="filterGrid filterHelp" aria-expanded="true" hidden><span data-client-text="筛选条件">筛选条件</span><span id="filterToggleCount" class="multi-count" hidden></span><span class="filter-toggle-arrow" aria-hidden="true">⌄</span></button>
+        <div id="filterGrid" class="filter-grid"></div>
+        <p id="filterHelp" class="filter-help" data-client-text="筛选项可多选，同一项满足任一条件，不同项同时满足。">筛选项可多选，同一项满足任一条件，不同项同时满足。</p>
+        <div id="activeFilters" class="active-filters" aria-label="已选筛选" data-client-label="已选筛选" hidden></div>
+      </section>
+      <p id="notice" class="notice" role="alert" hidden></p>
+      <section id="catalogResults" aria-label="筛选结果" data-client-label="筛选结果">
+        <div class="catalog-tools">
+          <div class="view-buttons" role="group" aria-label="显示方式" data-client-label="显示方式"><button id="gridView" class="button active" type="button" aria-pressed="true" data-client-text="网格">网格</button><button id="listView" class="button" type="button" aria-pressed="false" data-client-text="列表">列表</button></div>
+          <label class="page-size"><span data-client-text="每页">每页</span><select id="pageSize" aria-label="每页数量" data-client-label="每页数量"><option value="12">12</option><option value="24" selected>24</option><option value="48">48</option></select></label>
+          <button id="exportList" class="button" type="button" data-client-text="导出当前页">导出当前页</button>
+          <button id="compareOpen" class="button" type="button"><span data-client-text="对比">对比</span><span id="compareCount">0 / 4</span></button>
+        </div>
+        <div id="collectionBar" class="collection-bar" hidden><span id="collectionLabel"></span><button id="catalogReturn" class="quiet" type="button" data-client-text="返回全部包材">返回全部包材</button><div id="imageFilterNotice" class="image-filter-notice" hidden><span data-client-text="当前文字和筛选仍会限制搜图结果。">当前文字和筛选仍会限制搜图结果。</span><button id="clearImageFilters" class="button" type="button" data-client-text="清除文字和筛选">清除文字和筛选</button></div></div>
+        <div id="shortlistTools" class="shortlist-tools" hidden><p data-client-text="收藏和意向清单仅在本次页面打开期间保留。">收藏和意向清单仅在本次页面打开期间保留。</p><button id="exportShortlist" class="button" type="button" data-client-text="导出意向清单">导出意向清单</button><button id="consultShortlist" class="button primary" type="button" data-client-text="咨询所选包材">咨询所选包材</button></div>
+        <div class="results-top"><span id="resultCount"></span><span id="catalogStatus" class="catalog-status" role="status" aria-live="polite">正在加载…</span></div>
+        <div id="gallery" class="gallery" aria-label="包材列表" data-client-label="包材列表"></div>
+        <div id="empty" class="empty" hidden><span aria-hidden="true">◇</span><h2 id="emptyTitle"></h2><p id="emptyText"></p><button id="emptyReset" class="button" type="button" data-client-text="清除筛选">清除筛选</button></div>
+        <div class="retry-wrap"><button id="retry" class="button" type="button" data-client-text="重新加载" hidden>重新加载</button></div>
+        <nav id="pagination" class="pagination" aria-label="产品列表分页" data-client-label="产品列表分页" hidden>
+          <div class="page-primary"><button id="previous" class="button" type="button" data-client-text="上一页">上一页</button><span id="pageStatus" aria-live="polite"></span><button id="next" class="button" type="button" data-client-text="下一页">下一页</button></div>
+          <div id="pageButtons" class="page-buttons"></div>
+          <form id="jumpForm"><label for="pageNumber" data-client-text="跳至">跳至</label><input id="pageNumber" type="number" inputmode="numeric" min="1" step="1" aria-label="跳转页码" data-client-label="跳转页码" required><button class="button" type="submit" data-client-text="前往">前往</button></form>
+        </nav>
+      </section>
+    </main>
+    <footer><span data-client-text="包材演示工作室（虚构）">包材演示工作室（虚构）</span><span>PACKAGING COSMETICS</span></footer>
+  </div>
+  <dialog id="preview" aria-labelledby="detailTitle">
+    <div class="preview-top"><span data-client-text="包材详情">包材详情</span><button id="closePreview" class="quiet" type="button" aria-label="关闭详情" data-client-label="关闭详情"><span data-client-text="关闭">关闭</span> ×</button></div>
+    <div class="detail-grid pd-layout"><div class="detail-gallery"><div class="preview-image-wrap"><img id="previewImage" alt="包材图片"><p id="previewError" hidden data-client-text="图片暂时无法显示，请稍后再试。">图片暂时无法显示，请稍后再试。</p><div class="pd-gallery-controls" hidden><button id="imagePrevious" class="button pd-image-step" type="button" data-client-label="上一张图片" aria-label="上一张图片" aria-controls="previewImage"><span aria-hidden="true">‹</span><span class="pd-image-caption" data-client-text="上一张">上一张</span></button><button id="imageNext" class="button pd-image-step" type="button" data-client-label="下一张图片" aria-label="下一张图片" aria-controls="previewImage"><span class="pd-image-caption" data-client-text="下一张">下一张</span><span aria-hidden="true">›</span></button></div></div><div class="preview-controls pd-gallery-status" hidden><span id="imageStatus" aria-live="polite" aria-atomic="true"></span></div><div class="image-transfer-actions"><button id="imageOriginal" class="button" type="button" aria-controls="previewImage">查看高清原图</button><a id="imageDownload" class="button image-download" data-client-text="下载图片" hidden>下载图片</a></div><p id="imageOriginalStatus" class="image-transfer-status" role="status" aria-live="polite" hidden></p><p id="imageDownloadStatus" class="image-transfer-status" role="status" aria-live="polite" hidden></p><div id="imageThumbnails" class="thumbnails" aria-label="包材图片" data-client-label="包材图片"></div></div><section class="detail-info"><p id="detailCode" class="record-code"></p><h2 id="detailTitle"></h2><div id="detailTags" class="tags"></div><div id="detailVariants" class="pd-variant-selector" role="group" aria-label="选择规格" data-client-label="选择规格" hidden></div><dl id="detailFacts" class="pd-facts"></dl><div id="specifications"><h3 data-client-text="产品规格">产品规格</h3><dl id="detailSpecifications" class="facts"></dl></div><div id="detailActions" class="detail-actions"></div></section></div>
+  </dialog>
+  <dialog id="compareDialog" aria-labelledby="compareTitle"><div class="preview-top"><h2 id="compareTitle" data-client-text="包材对比">包材对比</h2><button id="compareClose" class="quiet" type="button" data-client-text="关闭">关闭</button></div><div class="compare-scroll"><table id="compareTable"></table></div><p class="dialog-help" data-client-text="最多选择四款，可对照图片、材质、容量和产品规格。">最多选择四款，可对照图片、材质、容量和产品规格。</p></dialog>
+  <dialog id="imageSearchDialog" aria-labelledby="imageSearchTitle"><div class="preview-top"><h2 id="imageSearchTitle" data-client-text="以图找包材">以图找包材</h2><button id="imageSearchClose" class="quiet" type="button" data-client-text="关闭">关闭</button></div><form id="imageSearchForm" class="image-search-form"><p data-client-text="手机照片会自动缩小；图片中有多款产品时，请框选目标包材。">手机照片会自动缩小；图片中有多款产品时，请框选目标包材。</p><label for="imageSearchFile" data-client-text="选择图片（JPG、PNG、WebP，最大 20 MB）">选择图片（JPG、PNG、WebP，最大 20 MB）</label><input id="imageSearchFile" type="file" accept="image/jpeg,image/png,image/webp,image/heic,image/heif"><div id="clientImageCropArea" class="client-image-crop" hidden><div class="client-image-crop-actions"><button id="clientImageCropReset" class="button" type="button" data-client-text="使用整张图片">使用整张图片</button><button id="clientImageCropCentre" class="button" type="button" data-client-text="框选中间包材">框选中间包材</button><button id="clientImageRotate" class="button" type="button" data-client-text="旋转 90°">旋转 90°</button></div><div class="client-image-canvas"><canvas id="clientImageCropCanvas" tabindex="0" aria-describedby="clientImageCropHint" aria-label="图片预览，可用鼠标、手指或方向键框选目标包材" data-client-label="图片预览，可用鼠标、手指或方向键框选目标包材"></canvas></div><p id="clientImageCropHint" aria-live="polite"></p></div><p id="imageSearchError" class="notice" role="alert" hidden></p><p id="imageSearchProgress" class="image-search-progress" role="status" aria-live="polite"></p><button id="imageSearchSubmit" class="button primary" type="submit" data-client-text="查找相似包材" disabled>查找相似包材</button></form></dialog>
+  <dialog id="consultDialog" aria-labelledby="consultTitle"><div class="preview-top"><h2 id="consultTitle" data-client-text="咨询所选包材">咨询所选包材</h2><button id="consultClose" class="quiet" type="button" data-client-text="关闭">关闭</button></div><div class="consult-body"><p data-client-text="复制以下产品编号和规格，发送给您的业务员咨询。">复制以下产品编号和规格，发送给您的业务员咨询。</p><textarea id="consultText" readonly aria-label="咨询内容" data-client-label="咨询内容"></textarea><button id="copyConsult" class="button primary" type="button" data-client-text="复制咨询内容">复制咨询内容</button><p id="copyStatus" role="status"></p></div></dialog>
+  <script type="module" src="/client.js"></script>
+</body>
+</html>
