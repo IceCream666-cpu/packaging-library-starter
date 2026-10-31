@@ -1,0 +1,17 @@
+{
+  "id": "demo-jar",
+  "status": "draft",
+  "sourceSpec": "jar.json",
+  "illustrativeDimensions": true,
+  "containsFormula": false,
+  "parts": [
+    "Body",
+    "Closure"
+  ],
+  "normalizedHeight": 2.9,
+  "limitations": [
+    "Generic starting geometry; calibrate silhouette, label and material against the actual poster.",
+    "No manufacturing dimensions or concealed mechanisms."
+  ],
+  "reference": "Replace with supplied poster filename"
+}

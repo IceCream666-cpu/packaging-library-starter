@@ -1,0 +1,36 @@
+name: Validate starter
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: packaging-library/assets/starter/package-lock.json
+      - name: Check Python and install image dependency
+        run: |
+          python3 --version
+          python3 -m pip install -r requirements.txt
+      - name: Validate project and import pipeline
+        run: |
+          python3 packaging-library/scripts/test_pipeline.py -v
+          python3 packaging-library/scripts/check_project.py packaging-library/assets/starter
+      - name: Install locked frontend dependencies
+        working-directory: packaging-library/assets/starter
+        run: npm ci
+      - name: Test and build
+        working-directory: packaging-library/assets/starter
+        run: |
+          npm test
+          npm run build

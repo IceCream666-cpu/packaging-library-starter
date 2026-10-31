@@ -1,0 +1,56 @@
+[
+  {
+    "id": "poster-012",
+    "name": "Beach Magic",
+    "kind": {
+      "zh": "身体护理 · 双色磨砂膏",
+      "en": "Body care · Dual-colour sugar scrub"
+    },
+    "description": {
+      "zh": "黄粉双色磨砂膏，搭配白色旋盖。",
+      "en": "Yellow and pink scrub with a white screw cap."
+    },
+    "background": "#f4c8d6",
+    "ink": "#3c1927",
+    "swatch": [
+      "#f5ce40",
+      "#ed77a5"
+    ]
+  },
+  {
+    "id": "poster-072",
+    "name": "Daily Emulsion",
+    "kind": {
+      "zh": "面部护理 · 单瓶日常乳液",
+      "en": "Face care · Daily Emulsion"
+    },
+    "description": {
+      "zh": "磨砂玻璃方瓶、乳白色料体与透明泵罩，呈现原海报中的柔和质感。",
+      "en": "Frosted rectangular glass, ivory emulsion and a clear pump cover echo the original poster."
+    },
+    "background": "#e9e5d8",
+    "ink": "#34372e",
+    "swatch": [
+      "#efeee6",
+      "#34372e"
+    ]
+  },
+  {
+    "id": "poster-073",
+    "name": "Body Oil Collection",
+    "kind": {
+      "zh": "身体护理 · 单瓶身体护理油",
+      "en": "Body care · Body Oil 02"
+    },
+    "description": {
+      "zh": "选取原海报中的02号单瓶，保留透明玻璃、米白瓶盖与金琥珀色油液。",
+      "en": "The original poster’s 02 bottle, with clear glass, an ivory cap and golden amber oil."
+    },
+    "background": "#eadbc5",
+    "ink": "#3e2b1d",
+    "swatch": [
+      "#eee3d1",
+      "#25180f"
+    ]
+  }
+]

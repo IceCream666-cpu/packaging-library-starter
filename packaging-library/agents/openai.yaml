@@ -1,0 +1,4 @@
+interface:
+  display_name: "海报到交互包材库"
+  short_description: "提供产品海报并选择风格，复用网页底座、3D模板与验收流程搭建包材库"
+  default_prompt: "请使用 $packaging-library，根据我提供的产品海报和所选风格建立独立包材库，包含展示级3D，并由你完成配置、制作和检查。"

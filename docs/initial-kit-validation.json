@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-31",
+  "version": "1.0",
+  "status": "local-kit-verified-not-production-release",
+  "scope": "Reusable skill, independent frontend starter, intake scripts, Blender recipe generator, local model integration and beginner instructions.",
+  "environment": {
+    "node": "24.22.1",
+    "vite": "8.3.4",
+    "blender": "4.5.9 LTS",
+    "pythonPipeline": "3.12 bundled runtime",
+    "browser": "Ego desktop browser; 390/320px emulated widths"
+  },
+  "tests": {
+    "existingFrontendUnitTests": {
+      "passed": 16,
+      "failed": 0
+    },
+    "pipelineTests": {
+      "passed": 5,
+      "failed": 0,
+      "covers": [
+        "original byte preservation",
+        "duplicate image input",
+        "refuse overwrite",
+        "bad image leaves no project",
+        "missing image path",
+        "path escape",
+        "corrupt GLB",
+        "model attachment",
+        "missing model node",
+        "failed replacement preserves existing model"
+      ]
+    },
+    "skillValidator": "passed",
+    "viteBuild": "passed",
+    "demoLauncherHttp": "passed",
+    "blenderRecipesExported": [
+      "jar",
+      "pump",
+      "dropper"
+    ]
+  },
+  "browser": {
+    "existingExampleModels": [
+      "poster-012",
+      "poster-072",
+      "poster-073"
+    ],
+    "allThreeLoadedAndExploded": true,
+    "halfOpenClosedAndBottomViewChecked": "poster-072",
+    "canvasCountAfterClose": 0,
+    "mobileWidthsNoDocumentOverflow": [
+      390,
+      320
+    ],
+    "originalPosterView": "poster-072",
+    "newProjectFlow": "Imported one poster into a new folder, attached a generated unprinted pump draft, rendered and exploded it successfully; integration test only, not a faithful recreation of that poster."
+  },
+  "reused": [
+    "catalogue browsing, search, favorites, original image view",
+    "responsive carousel and image loading",
+    "GLB lazy loading, cancellation and scene disposal",
+    "part explosion and product-specific studio configurations"
+  ],
+  "adaptations": [
+    "independent relative-path Vite build",
+    "brand configuration replacing old UI identity",
+    "three reviewed examples isolated from business backend",
+    "optional print layer support for unprinted models",
+    "portable parameter recipes and data-only generation",
+    "new-project import and GLB integration checks"
+  ],
+  "limits": [
+    "No novice time-and-motion comparison; 70% reduction remains a target.",
+    "No fresh computer npm install performed; build used existing local dependencies.",
+    "No physical iOS/Android devices, native touchpad, slow network or FPS assessment in this extraction task.",
+    "Basic recipes do not automatically reconstruct arbitrary poster geometry, OCR, curved labels, intricate threads or hidden mechanisms.",
+    "No production server or original repository changed; no deployment performed.",
+    "The static starter does not provide private access control."
+  ],
+  "buildWarnings": [
+    "Three.js scene chunk exceeds Vite 500 kB advisory threshold; kept lazy-loaded.",
+    "Lucide use-client directives emit warnings in the Vite standalone build."
+  ],
+  "delivery": {
+    "humanGuide": "零基础使用说明.html",
+    "skill": "packaging-library/SKILL.md",
+    "starter": "packaging-library/assets/starter",
+    "neutralRecipeOutputs": "packaging-library/assets/recipe-examples",
+    "exampleImage": "3D示例-展开.png"
+  }
+}

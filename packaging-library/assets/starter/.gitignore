@@ -1,0 +1,26 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+# Local inputs, generated projects and backups
+inputs/
+projects/
+work/
+*.blend1
+*.blend2
+# Local credentials and business state
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db

@@ -1,0 +1,80 @@
+{
+  "demo-jar": {
+    "file": "demo-jar.glb",
+    "scale": 1,
+    "kind": "collection",
+    "parts": [
+      {
+        "key": "jar",
+        "node": "Body",
+        "title": [
+          "罐身",
+          "Jar"
+        ],
+        "short": [
+          "罐身",
+          "Jar"
+        ],
+        "detail": [
+          "按海报外观制作的展示示意。",
+          "Illustrative appearance model."
+        ]
+      },
+      {
+        "key": "closure",
+        "node": "Closure",
+        "title": [
+          "外盖",
+          "Lid"
+        ],
+        "short": [
+          "外盖",
+          "Lid"
+        ],
+        "detail": [
+          "按海报外观制作的展示示意。",
+          "Illustrative appearance model."
+        ]
+      }
+    ],
+    "review": {
+      "appearance": {
+        "glass": false,
+        "frosted": false,
+        "clearLabel": false
+      },
+      "explosion": {
+        "offsets": {
+          "jar": [
+            0,
+            0,
+            0
+          ],
+          "closure": [
+            0,
+            2,
+            0
+          ]
+        },
+        "camera": {
+          "centerY": [
+            1.45,
+            2.25
+          ],
+          "height": [
+            4.3,
+            6.8
+          ],
+          "width": [
+            4.3,
+            7.8
+          ],
+          "centerX": [
+            0,
+            -0.3
+          ]
+        }
+      }
+    }
+  }
+}

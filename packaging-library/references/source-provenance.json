@@ -1,0 +1,164 @@
+{
+  "extractedAt": "2026-10-31",
+  "sourceCommit": "07f9357289ead011a7bcd427bc7e8bf5232de63b",
+  "scope": "local reusable starter, not proof of current production",
+  "examples": [
+    "poster-012",
+    "poster-072",
+    "poster-073"
+  ],
+  "sourceFiles": [
+    {
+      "path": "src/SafeImage.jsx",
+      "sha256": "84b0d454c47ab2680a6c9b1effe31fb2f6df52b60fc3c9af2b369612f7748418"
+    },
+    {
+      "path": "src/presentation.css",
+      "sha256": "88b3246c014febea8dca0eac1a166308311d65f63293c2d58eedd14710b0ab03"
+    },
+    {
+      "path": "src/copy.js",
+      "sha256": "4307d27cffe576f0eeb6c5e1acf48557d9ac484a8d7fa73b3c6396bb0136aacc"
+    },
+    {
+      "path": "src/product-arc.js",
+      "sha256": "e1314f3570de5cf67ea2376f46a50037d4c06547f916361acadc9fbef328ba95"
+    },
+    {
+      "path": "src/FeaturedShowcase.jsx",
+      "sha256": "0818c8fa8f7a9704b8f802c99406def631cc910e4837ed6957deba2b69cd3f16"
+    },
+    {
+      "path": "src/session.js",
+      "sha256": "6f9412ce6e770111893cb8afc91ccb5560ee31c34680d041611ef9169d7fb966"
+    },
+    {
+      "path": "src/colour.css",
+      "sha256": "856a440957c447f7b1037665cd3480cf8864efb6cb8998eb8cb8340616836cae"
+    },
+    {
+      "path": "src/asset-paths.json",
+      "sha256": "4b08cbe569c887cb274cec3e4c738440bc1623a8430d39c5ae99f8d4da4277d2"
+    },
+    {
+      "path": "src/media-loading.css",
+      "sha256": "78173f4204ffec8c3107c7b597200120d3e50c5693fee374ea63288389d03a02"
+    },
+    {
+      "path": "src/arc-showcase.css",
+      "sha256": "ae1b9e9abd7ab7268756f05fef7f6f8035538e494b97c2619413758a094a842e"
+    },
+    {
+      "path": "src/featured-loading.js",
+      "sha256": "7605e51fa9974bfc944ab87d252cb959112502c679f1c2f48627998f64ab7758"
+    },
+    {
+      "path": "src/FeaturedImage.jsx",
+      "sha256": "d63ce52ed2c2e9ad8bde1dff3458e0b77fb2049fa8454732d8453526cfb2e111"
+    },
+    {
+      "path": "src/carousel-model.js",
+      "sha256": "2bb3447b30a62fc6455aacfff8b0d303e7d40ed3321c2ad7003fe45aaf3de6e0"
+    },
+    {
+      "path": "src/posters.json",
+      "sha256": "3a8d859b522be2059352aa96509f7b581fa4b41575e111706f3626494db30750"
+    },
+    {
+      "path": "src/PosterStage.jsx",
+      "sha256": "a5b4b080d57fa26eaa54c69dbde9ef32fea9c3bdc65255c9802c2d41732e7e9e"
+    },
+    {
+      "path": "src/main.jsx",
+      "sha256": "342b96d8e4a68793db7522e04eff73393d5d72e300193383458f44e4a95b8744"
+    },
+    {
+      "path": "src/modal-scroll.js",
+      "sha256": "848c3f6f8a9e2e1ae08424511111a9c694379acb99101523cb9ee0e637950a3b"
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "20e5334e82f5e97c7efa3f91728e3c39167ea000a2d1d38b4b739373545ab053"
+    },
+    {
+      "path": "src/poster-palettes.json",
+      "sha256": "e25c8643edba064ca13a54d0cc0f4c85f5a96222fd438a17f87d94d1fc108b77"
+    },
+    {
+      "path": "src/responsive-media.css",
+      "sha256": "f770f39377d23d09d4260fdc360a3b8d31e32641906474431e8cc28559babdd2"
+    },
+    {
+      "path": "src/featured-media.json",
+      "sha256": "e94dc58f8655b19c80fceaf951a34a6247c750c1b24d9b7a4996d6f1f07b178a"
+    },
+    {
+      "path": "src/carousel-motion.js",
+      "sha256": "a33a63f60b04cf6e766c070bf8c30e121ff86de683e8d13a7ffb04ea80f51195"
+    },
+    {
+      "path": "src/model.js",
+      "sha256": "42dacdfd3e2c3873c34ccbcf55bdf478e863b074be3ce4c4dea716124bb0eb35"
+    },
+    {
+      "path": "src/media-policy.js",
+      "sha256": "493cf91609ae1adc3ee6dc1a40baf4bfae275bd908f74113f266dcb6f0198b4f"
+    },
+    {
+      "path": "src/featured.json",
+      "sha256": "92247eb34fe83fc0fde0f3500919714ecbc1645f909699b4dce5be73af159adc"
+    },
+    {
+      "path": "src/mobile.css",
+      "sha256": "26db64ecda3eb023c8693571be67c0eb8df4748cc0c1dc3695f28f59f53ad3a8"
+    },
+    {
+      "path": "src/structure/packaging-shell.css",
+      "sha256": "4dffe07548dd16d9a1d8317c2613c3e550a4a89863fb49be3c59c59ab3873f0a"
+    },
+    {
+      "path": "src/structure/packaging-scene.js",
+      "sha256": "a8c3917fc463d4659a03a7bff7b8b70468dfddd1ab0e94beabffc09339c0a5a3"
+    },
+    {
+      "path": "src/structure/packaging-detail.css",
+      "sha256": "c92be89bbae8506b9b08103de9cf7ec48009e6a78180518edc603869e99a5804"
+    },
+    {
+      "path": "src/structure/packaging-products.js",
+      "sha256": "7cbf6a9820fed3aa9f1a76af52f8b81a1931a344b227e9499edff843d0c21da5"
+    },
+    {
+      "path": "src/structure/PackagingDetailLoader.jsx",
+      "sha256": "74d5169847faa6da69d65a3c390ed6d034b6cb667c91b67a37efb59a02f7b963"
+    },
+    {
+      "path": "src/structure/collection-products.json",
+      "sha256": "dc150120adde026edeac7f4bcec8ad00809749aaecd79aa14e978b613cd26571"
+    },
+    {
+      "path": "src/structure/PackagingDetail.jsx",
+      "sha256": "9f3f64c95957fb7ecd770ed43db3d53b5c40eb4765ce587b85df69cafd748780"
+    },
+    {
+      "path": "src/structure/vendor/three.module.js",
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "src/structure/vendor/LICENSE",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "src/structure/vendor/three.core.js",
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "src/structure/vendor/GLTFLoader.js",
+      "sha256": "2904f2823e23d5bc1d64512bf4c0d777ac44d728d47c34a9e3d48ce8ef6b761d"
+    },
+    {
+      "path": "src/structure/vendor/BufferGeometryUtils.js",
+      "sha256": "248b3e8420bd3de805ca01845c1b0cc62aa2766f3c56bdcead265e306f8e715c"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "demo-dropper",
+  "reference": "Replace with supplied poster filename",
+  "limitations": [
+    "Generic starting geometry; calibrate silhouette, label and material against the actual poster.",
+    "No manufacturing dimensions or concealed mechanisms."
+  ],
+  "parts": [
+    {
+      "key": "jar",
+      "node": "Body",
+      "title": [
+        "瓶身",
+        "Body"
+      ],
+      "short": [
+        "瓶身",
+        "Body"
+      ],
+      "detail": [
+        "按海报外观制作的展示示意。",
+        "Illustrative appearance model."
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        {
+          "type": "lathe",
+          "profile": [
+            [
+              0,
+              0.44
+            ],
+            [
+              0.05,
+              0.5
+            ],
+            [
+              1.55,
+              0.5
+            ],
+            [
+              1.67,
+              0.38
+            ],
+            [
+              1.8,
+              0.18
+            ],
+            [
+              1.8,
+              0.14
+            ],
+            [
+              1.65,
+              0.14
+            ],
+            [
+              1.5,
+              0.44
+            ],
+            [
+              0.12,
+              0.44
+            ]
+          ],
+          "color": "#e5e4dc",
+          "roughness": 0.35
+        }
+      ]
+    },
+    {
+      "key": "closure",
+      "node": "Closure",
+      "title": [
+        "外盖",
+        "Closure"
+      ],
+      "short": [
+        "外盖",
+        "Closure"
+      ],
+      "detail": [
+        "按海报外观制作的展示示意。",
+        "Illustrative appearance model."
+      ],
+      "offset": [
+        0,
+        1.4,
+        0
+      ],
+      "shapes": [
+        {
+          "type": "lathe",
+          "profile": [
+            [
+              1.76,
+              0.22
+            ],
+            [
+              1.98,
+              0.22
+            ],
+            [
+              1.98,
+              0.02
+            ]
+          ],
+          "color": "#eeeeea"
+        }
+      ]
+    },
+    {
+      "key": "head",
+      "node": "Actuator",
+      "title": [
+        "胶头",
+        "Bulb"
+      ],
+      "short": [
+        "胶头",
+        "Bulb"
+      ],
+      "detail": [
+        "按海报外观制作的展示示意。",
+        "Illustrative appearance model."
+      ],
+      "offset": [
+        0,
+        2.2,
+        0
+      ],
+      "shapes": [
+        {
+          "type": "lathe",
+          "profile": [
+            [
+              1.98,
+              0.13
+            ],
+            [
+              2.25,
+              0.13
+            ],
+            [
+              2.35,
+              0.08
+            ],
+            [
+              2.36,
+              0.01
+            ]
+          ],
+          "color": "#eeeeea"
+        }
+      ]
+    }
+  ]
+}
