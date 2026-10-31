@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "status": "local-validation-passed-public-upload-in-progress",
+  "status": "published-public-repository",
   "dependencyInstall": "Fresh download from npm registry followed by npm ci; no symlink to previous project dependencies.",
   "node": "24.22.1",
   "npm": "11.6.2",
@@ -25,9 +25,14 @@
     "Lucide use-client directives generate Vite warnings."
   ],
   "notDone": [
-    "Source push pending verification; public repository has been created.",
     "No GitHub Pages deployment.",
     "No novice 70% time-saving benchmark."
   ],
-  "license": "MIT for original framework, docs and neutral recipes; third-party and branded assets separately noted in ASSETS.md."
+  "license": "MIT for original framework, docs and neutral recipes; third-party and branded assets separately noted in ASSETS.md.",
+  "repository": "https://github.com/IceCream666-cpu/packaging-library-starter",
+  "templateRepository": true,
+  "publicReadVerified": true,
+  "anonymousZipVerified": true,
+  "verifiedSourceCommit": "f7970efbf3242f4e28fc7ef3580bad0e43c477c1",
+  "verificationNote": "Anonymous API metadata request was rate-limited; metadata checked through authenticated CLI. Raw README and source ZIP were fetched without credentials."
 }

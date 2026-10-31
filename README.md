@@ -6,6 +6,10 @@
 
 ![现有乳液瓶示例的展开视图](docs/images/exploded-view.png)
 
+## 获取自己的副本
+
+这个仓库已设为 GitHub 模板。点击仓库顶部的 **Use this template** 创建自己的独立仓库，或者通过 **Code → Download ZIP** 下载完整源码。
+
 ## 零基础：把这段交给 AI
 
 先下载或克隆整个仓库，再把本地仓库目录与海报目录提供给能够操作本地文件的 Codex：
