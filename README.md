@@ -80,7 +80,7 @@ npm test
 npm run build
 ```
 
-`.github/workflows/validate.yml` 在 push、PR 或手动触发时执行这些检查。它只验证和构建，不发布网页、不写业务数据库。工作流使用锁文件进行安装，做法参考 [GitHub 官方 Node.js 构建与测试说明](https://docs.github.com/en/actions/tutorials/build-and-test-code/nodejs)。
+自动检查模板位于 [`docs/validate-workflow.yml`](docs/validate-workflow.yml)。当前上传凭据缺少 GitHub 的 `workflow` 权限，因此本次没有启用自动运行；仓库所有者可在 GitHub 网页中将模板创建为 `.github/workflows/validate.yml`。启用后会在 push、PR 或手动触发时验证和构建，不发布网页、不写业务数据库。模板使用锁文件进行安装，做法参考 [GitHub 官方 Node.js 构建与测试说明](https://docs.github.com/en/actions/tutorials/build-and-test-code/nodejs)。
 
 浏览器的逐款视觉验收仍需人工/AI 对照原图，参见 [验收清单](packaging-library/references/qa-delivery.md)。历史套件记录在 [初始验证报告](docs/initial-kit-validation.json)，仓库准备结果另见 [仓库验证报告](docs/repository-validation.json)；历史报告不代表当前 GitHub Actions 已运行。
 
@@ -89,7 +89,7 @@ npm run build
 ```text
 README.md
 requirements.txt
-.github/workflows/validate.yml
+docs/validate-workflow.yml
 packaging-library/
   SKILL.md
   agents/openai.yaml

@@ -18,14 +18,14 @@
     "status": "passed"
   },
   "build": "passed",
-  "workflow": "Created; remote execution not yet performed",
+  "workflow": "Template retained at docs/validate-workflow.yml; not enabled. GitHub rejected an initial source push because the authenticated OAuth credential lacks workflow scope.",
   "browserEvidence": "See initial-kit-validation.json; this repository preparation changed packaging and dependency installation, not the visual implementation.",
   "warnings": [
     "Lazy-loaded scene chunk exceeds Vite advisory size.",
     "Lucide use-client directives generate Vite warnings."
   ],
   "notDone": [
-    "No GitHub repository created or uploaded yet.",
+    "Source push pending verification; public repository has been created.",
     "No GitHub Pages deployment.",
     "No novice 70% time-saving benchmark."
   ],
